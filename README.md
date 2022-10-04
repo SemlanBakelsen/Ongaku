@@ -1,108 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ongaku Music Group
+Ongaku Music Group is a website created by the passonate and music loving people who make up Ongaku Music Group. The webpages purpos is to spark an intrest in other music lovers that would like to play togheter with people that truly live to play. Ongaku Music group is a simple jet effective webpage that focuses on getting straight to the point. For the people who really burn for music then Ongaku Music Group is a truly great fit.
+![Responsive dasign preview](assets/images/am-i-responsive.png)
+## Features
+* **The header**
+     * Featured at the top of the page in big letters so it's easy for the user to read and understande the name.
+     * Wrapped in a light blue banner brings attention to the top op the page where the header is located.
+* **Navigation**
+     * Located at the top right of the page wrapped in the blue banner with spacius borders giving the navigation buttons a bigger look, making the user more likely to look at them.
+     * Giving the user the option to jump right ahead to any section of the webpage so the user feel more comfortable and understand the layout right away.
+     <br>
+ ![Heading and navigation buttins in a blue border](assets/images/header.jpeg)
+* **Hero Image**
+     * Giving the user a big image that tells the user that this is a music webpage, an image of a few people playing different instuments to get the user in a peaceful piece of mind.
+* **The About Section**
+     * A short summery of the people behind the group and information about how much they like music.
+     * A dedicated schedule for when the group would to meet, giving the user valuable information till they would join.
 
-Welcome SemlanBakelsen,
+ ![About section](assets/images/info.png)
+* **The Sign Up Form**
+     * The sing up form gives the user the immediate possibility to join the group if they so wish.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ ![The form section](assets/images/signup.png)
+* **The Contact Section**
+     * In the contact section the user have acces to all contact information of the webpage right at one place.
+     * The user can open the social media links in a new tab or use the phone, email and address that's written in the section.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+ ![Contact section](assets/images/contact.png)
 
-## Gitpod Reminders
+  ## Testing
+* The website have been thoroughly tested thru out the making of the page. Viewed the page in multiple different sizes and configurations during the making of the page.
+* Tested the navigation links so that they bring the user to the correct place.
+* Made sure that the form submition works so the user gets a valid responce through Code Institutes [form dump](https://formdump.codeinstitute.net/). 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Bugs
+* When making responcive design the header and the navigation links would stack vartically. Was able to fix the problem by putting `Display: inline;` style on the navigation list items.
+* Struggeled for a while to get responcive design to work for smaller screen sizes untill I removed my code tries and put `text-align: center;` on only 2 id's and it worked without me needint to change what size it should be.
+## Validation
+* HTML
+     * Gave a warning regarding lack of header at the "Hero Image" location, where I don't use a header anyway. No further problems
+* CSS
+     * Passed the chack without any warnings or errors.
+* Accessibility
+    * I chose colors for tha page that would be easy to differentiate between. And got good scores on the lighthouse test.
 
-`python3 -m http.server`
+    ![Lighthouse scores](assets/images/lighthouse.png)
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Deplaoment
+* The page was deployed through GitHub.
+     * By navigating to the settings of the repository then click on 'Pages' in the menu.
+     * Then choose the branch main and click on save.
+     * The link will be avalibly just a minute later.  
