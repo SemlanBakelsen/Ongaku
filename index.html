@@ -22,7 +22,7 @@
                 </li>
 
                 <li>
-                    <a href="#">Sign up</a>
+                    <a href="#signup">Sign up</a>
                 </li>
 
                 <li>
@@ -41,31 +41,53 @@
             <h2>About Us</h2>
             <p>We are a group of peaople who love to play all sorts of different music styles. We welcome anyone who is willing to play an instrument togheter with us, no mater what playstyle or genre you prefer there will always be room.</p>
         </div>
-
-        <div id="left-side">
-            <img src="assets/images/music-notes.jpg" alt="sheet music">
-        </div>
-
-        <div id="right-side">
+                    
+        <div id="about-us-sec">
+            <h3>Our meeting schedule</h3>
             <table id="meetups">
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th>Time</th>
+                    <th>Day</th>
+                    <th>Place</th>
                 </tr>
 
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <td>17:00</td>
+                    <td>Tuesday</td>
+                    <td>Phoenix Park</td>
                 </tr>
 
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <td>17:00</td>
+                    <td>Wednesday</td>
+                    <td>Phoenix Park</td>
+                </tr>
+
+                <tr>
+                    <td>15:30</td>
+                    <td>Saturday</td>
+                    <td>Online</td>
                 </tr>
             </table>
+        </div>
+       
+    </section>
+
+    <section>
+        <div id="signup">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="form">
+                <h2>Sign up to our group!</h2>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required class="text-field">
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required class="text-field">
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-field">
+                
+                <input class="submit-button" type="submit" value="Send">
+            </form>
         </div>
     </section>
 </body>
