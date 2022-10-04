@@ -65,6 +65,7 @@ nav {
     position: relative;
 }
 
+/* Image taken from "https://www.pexels.com/photo/group-of-women-playing-musical-instruments-7097459/" */
 #hero-image {
     height: 500px;
     width: 100%;
@@ -118,6 +119,7 @@ nav {
 
 /* Sign up */
 
+/* Image taken from "https://www.pexels.com/photo/music-notes-934067/" */
 #signup-section {
     background: url('../images/music-notes.jpg') no-repeat center center;
     height: 550px;
