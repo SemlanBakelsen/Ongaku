@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #202020;
+
+}
+
+h1, h2 {
+    font-family: 'Commissioner', sans-serif;
+    text-transform: uppercase;
+    font-size: 240%;
+    color: #252525;
+}
+
+#logo {
+    font-size: 250%;
+    float: left;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #70aeff;
+}
+#navigation {
+    font-size: 130%;
+    margin: 0 20px 0 20px;
+    text-align: right;
+}
+
+#navigation, #logo {
+    line-height: 80px;
+}
+#navigation li {
+    list-style-type: none;
+    margin: 0 10px;
+    display: inline;
+    background-color: #70aeff;
+    border: 2px solid #202020;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+#navigation li:hover {
+    color: #70bfff;
+    background-color: #202020;
+}
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* hero image */
+
+#hero {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat left center;
+}
+
+/* about us section */
+
+#about-us {
+    height: 1200px;
+    padding: 0 40px;
+}
+#about-us-first {
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#about-us h2 {
+    text-decoration: underline;
+    font-size: 300%;
+}
+
+#about-us p {
+    font-size: 150%;    
+}
+
+/* about us - meetups */
+
+#left-side {
+    padding-top: 20px;
+    margin-left: 10%;
+    float: left;
+}
+#left-side img {
+    width: 33%;
+    border: 10px solid #202020;
+    box-sizing: border-box;
+}
+
+#right-side {
+    float: right;
+}
