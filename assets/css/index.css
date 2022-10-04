@@ -107,6 +107,7 @@ nav {
 
 #about-us-sec h3 {
     font-size: 160%;
+    text-decoration: underline;
 }
 
 #meetups {
@@ -118,7 +119,7 @@ nav {
 /* Sign up */
 
 #signup-section {
-    background: url('../images/music-notes-large.jpg') no-repeat center center;
+    background: url('../images/music-notes.jpg') no-repeat center center;
     height: 550px;
 }
 
@@ -200,4 +201,19 @@ footer {
     font-size: 400%;
     margin: 2%;
     color: #70aeff;
+}
+
+/* Media queries */
+/* for screen size at 950px and smaller */
+@media screen and (max-width: 950px) {
+    #logo {
+        clear: both;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #navigation {
+        text-align: center;
+    }
 }
