@@ -117,24 +117,87 @@ nav {
 
 /* Sign up */
 
-#signup {
-    height: 800px;
-    width: 80%;
-    margin:  0 auto;
-    border: 10px solid #202020;
-    box-sizing: border-box;
+#signup-section {
     background: url('../images/music-notes-large.jpg') no-repeat center center;
+    height: 550px;
+}
+
+#signup {
+    padding: 100px;
+    text-align: left;
 }
 
 .form {
-    
-    background-color: #70aeff;
+    margin: 0 auto;
+    color:#202020;
+    max-width: 400px;
+    padding: 25px;
+    background-color: rgba(112, 174, 255, .9);
+}
+
+.form > h2 {
+    font-size: 200%;
+    margin-bottom: 15px;
 }
 
 .text-field {
-
+    background: transparent;
+    color: #202020;
+    width: 100%;
+    height: 20px;
+    border: 1px solid #202020;
+    border-radius: 3px;
+    font-size: 110%;
 }
 
 .submit-button {
-    
+    margin-top: 20px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 125%;
+    background-color: #202020;
+    color: #70aeff;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color:#202020;
+}
+
+/* footer */
+
+#contact {
+    height: 100px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 150%;
+    margin: 20px auto;
+}
+
+#contact p {
+    margin: 5px auto;
+}
+
+footer {
+    height: 105px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer i {
+    font-size: 400%;
+    margin: 2%;
+    color: #70aeff;
 }

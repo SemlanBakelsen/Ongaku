@@ -26,7 +26,7 @@
                 </li>
 
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -39,7 +39,7 @@
     <section id="about-us">
         <div id="about-us-first">
             <h2>About Us</h2>
-            <p>We are a group of peaople who love to play all sorts of different music styles. We welcome anyone who is willing to play an instrument togheter with us, no mater what playstyle or genre you prefer there will always be room.</p>
+            <p>We are a group of people who love to play all sorts of different music styles. We welcome anyone who is willing to play an instrument togheter with us, no mater what playstyle or genre you prefer there will always be room.</p>
         </div>
                     
         <div id="about-us-sec">
@@ -73,7 +73,7 @@
        
     </section>
 
-    <section>
+    <section id="signup-section">
         <div id="signup">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="form">
                 <h2>Sign up to our group!</h2>
@@ -85,10 +85,47 @@
                 
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email_address" required class="text-field">
+
+                <label for="ins">What Instrument do you play?</label>
+                <input id="ins" name="instrument" type="text" required class="text-field">
                 
                 <input class="submit-button" type="submit" value="Send">
             </form>
         </div>
     </section>
+
+    <footer>
+        <div id="contact">
+            <h2>Contact info</h2>
+            <p>Phone: 012 345 67 89</p>
+            <p>Email: ongaku@music.com</p>
+            <p>Adress: Old Road, Dublin</p>
+
+        </div>
+        <ul id="footer">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" 
+                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/3dfbd09800.js" crossorigin="anonymous"></script>
 </body>
 </html>
