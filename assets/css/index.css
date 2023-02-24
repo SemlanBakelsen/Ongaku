@@ -12,6 +12,7 @@ body {
 
 }
 
+/* Headings */
 h1, h2 {
     font-family: 'Commissioner', sans-serif;
     text-transform: uppercase;
@@ -19,6 +20,7 @@ h1, h2 {
     color: #252525;
 }
 
+/* Main heading */
 #logo {
     font-size: 250%;
     float: left;
@@ -28,6 +30,8 @@ h1, h2 {
 nav {
     background-color: #70aeff;
 }
+
+/* Links to sections on page*/
 #navigation {
     font-size: 130%;
     margin: 0 20px 0 20px;
@@ -37,20 +41,25 @@ nav {
 #navigation, #logo {
     line-height: 80px;
 }
+
+/* Links */
 #navigation li {
     list-style-type: none;
     margin: 0 10px;
     display: inline;
     background-color: #70aeff;
-    border: 2px solid #202020;
+    border: 2px solid #202020;  
     border-radius: 10%;
     padding: 10px;
 }
 
+/* Links */
 #navigation li:hover {
     color: #70bfff;
     background-color: #202020;
 }
+
+/* Links */
 #navigation a {
     text-decoration: none;
     color: inherit;
@@ -78,6 +87,8 @@ nav {
     height: 500px;
     padding: 0 40px;
 }
+
+/* about us text */
 #about-us-first {
     height: 200px;
     width: 500px;
@@ -94,7 +105,7 @@ nav {
     font-size: 150%;
 }
 
-/* about us - meetups */
+/* about us - table part*/
 
 #about-us-sec {
     height: 180px;
@@ -111,6 +122,7 @@ nav {
     text-decoration: underline;
 }
 
+/* table content */
 #meetups {
     text-align: center;
     margin: 0 auto;
