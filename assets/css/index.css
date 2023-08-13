@@ -98,14 +98,24 @@ nav {
 #about h2 {
     text-decoration: underline;
     font-size: 300%;
-    padding: 10px 0;
+    margin: 10px 0;
 }
 
 #about p {
     font-size: 150%;
 }
 
-/* about us - table part*/
+/* musical devider, visual devider*/
+
+#musical-divider {
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 0;
+    animation: imageCycle 25s infinite;
+}
+
+/* schedule*/
 
 #schedule {
     height: 180px;
@@ -226,6 +236,16 @@ footer {
     font-size: 400%;
     margin: 2%;
     color: #70aeff;
+}
+
+/* animation for musical divider */
+@keyframes imageCycle {
+    0% {background-image: url('../images/red-note.jpg'); }
+    20% {background-image: url('../images/red-note.jpg'); }
+    40% {background-image: url('../images/guitars.jpg'); }
+    60% {background-image: url('../images/stage.jpg'); }
+    80% {background-image: url('../images/instruments.jpg'); }
+    100% {background-image: url('../images/note-and-violin.jpg'); }
 }
 
 /* Media queries */
