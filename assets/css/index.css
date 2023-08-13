@@ -83,31 +83,31 @@ nav {
 
 /* about us section */
 
-#about-us {
-    height: 500px;
+#about {
     padding: 0 40px;
 }
 
 /* about us text */
-#about-us-first {
-    height: 200px;
+#pitch {
+    padding: 40px 0;
     width: 500px;
     text-align: center;
     margin: 20px auto;
 }
 
-#about-us h2 {
+#about h2 {
     text-decoration: underline;
     font-size: 300%;
+    padding: 10px 0;
 }
 
-#about-us p {
+#about p {
     font-size: 150%;
 }
 
 /* about us - table part*/
 
-#about-us-sec {
+#schedule {
     height: 180px;
     width: 400px;
     margin: 0 auto;
@@ -117,9 +117,17 @@ nav {
     border-radius: 10%;
 }
 
-#about-us-sec h3 {
+#schedule h3 {
     font-size: 160%;
     text-decoration: underline;
+}
+
+#about-us {
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 0;
+
 }
 
 /* table content */
