@@ -90,7 +90,7 @@ nav {
 /* about us text */
 #pitch {
     padding: 40px 0;
-    width: 500px;
+    width: 50vw;
     text-align: center;
     margin: 20px auto;
 }
@@ -123,10 +123,13 @@ nav {
 }
 
 #about-us {
-    width: 500px;
+    width:  50vw;
     text-align: center;
     margin: 20px auto;
     padding: 20px 0;
+}
+
+#about-us p {
 
 }
 
