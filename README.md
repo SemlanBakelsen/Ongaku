@@ -59,11 +59,11 @@ Here is the link to the page: https://semlanbakelsen.github.io/Ongaku-music-grou
      * The footer icons are from https://fontawesome.com/.
      * The header font used on h1 and h2 are from https://fonts.google.com/.
 
-instrumets.jpg: https://unsplash.com/photos/cW3nDFVpi10
-stage.jpg: https://unsplash.com/photos/z9z6u1rn7sY
-red-note.jpg: https://unsplash.com/photos/qt7S2QuAhJI
-note-and-violin.jpg: https://unsplash.com/photos/GbSCAAsU2Fo
-guitars.jpg: https://unsplash.com/photos/U2azMu57UEY
+* instrumets.jpg: https://unsplash.com/photos/cW3nDFVpi10
+* stage.jpg: https://unsplash.com/photos/z9z6u1rn7sY
+* red-note.jpg: https://unsplash.com/photos/qt7S2QuAhJI
+* note-and-violin.jpg: https://unsplash.com/photos/GbSCAAsU2Fo
+* guitars.jpg: https://unsplash.com/photos/U2azMu57UEY
 
     
 ### Content
