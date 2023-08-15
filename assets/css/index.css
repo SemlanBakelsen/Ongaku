@@ -285,3 +285,57 @@ footer {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 750px) {
+    #pitch-section h2{
+        font-size: 200%;
+    }
+
+    #pitch-section p {
+        font-size: 125%;
+    }
+
+    #about h2 {
+        font-size: 200%;
+    }
+
+    #about p {
+        font-size: 125%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .schedule-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .schedule-item {
+        flex: 1 0 auto;
+        margin: 5px auto;
+        padding: 10px;
+    }
+
+    .schedule-time,
+    .schedule-day,
+    .schedule-place {
+        font-size: 100%;
+        margin: 8px 0;
+    }
+
+    #signup {
+        padding: 50px;
+    }
+
+    .form {
+        max-width: 80vw;
+    }
+
+    .form h2 {
+        font-size: 100%;
+    }
+
+    h1{
+        font-size: 80%;
+    }
+}
